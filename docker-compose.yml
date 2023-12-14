@@ -19,6 +19,7 @@ services:
       MYSQL_DATABASE: _keep_focus_
       MYSQL_USER: iury
       MYSQL_PASSWORD: root
+      MYSQL_LOWER_CASE_TABLE_NAMES: 2 
     ports:
       - 3306:3306
     volumes:
